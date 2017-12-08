@@ -1,0 +1,15 @@
+insert into usuario (id, user_name, nome, senha) values(1, 'admin', 'Fagner', '123456');
+
+insert into card (id, titulo, descricao) values(2, 'Card1', 'Desc');
+insert into card (id, titulo, descricao) values(3, 'Card2', 'Desc');
+
+
+insert into tarefa (id, nome, prioridade) values(4, 'T1', 'Alta');
+insert into tarefa (id, nome, prioridade) values(5, 'T2', 'Baixa');
+
+
+insert into card_tarefas values(2, 4);
+insert into card_tarefas values(3, 5);
+
+insert into usuario_cards values(1, 2);
+insert into usuario_cards values(1, 3);
